@@ -1,0 +1,8 @@
+1530094:Alexis Silva:ITI:alexis@correo.com:12345
+1530048:Alejandro Martinez:ITI:alejandro@correo.com:67890
+1530049:Ivan Ramirez:ITI:ivan@correo.com:24680
+1530042:Javier Velazquez:ITI:javier@correo.com:24680
+1530029:Josue Brito:ITI:josue@correo.com:24680
+1530022:Francisco Brito:ITI:francisco@correo.com:24680
+1530032:Marco Fuentes:ITI:1530032@upv.edu.mx:83201230
+1530466:Jessica Sanchez:ITI:1530466@upv.edu.mx:834109238
