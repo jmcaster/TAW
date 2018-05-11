@@ -1,2 +1,2 @@
 # TAW
-Repo para la clase de Tecnoloías y Aplicaciones Web
+Repo para la clase de Tecnologías y Aplicaciones Web
