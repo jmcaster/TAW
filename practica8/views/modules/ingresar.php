@@ -27,7 +27,7 @@
 	
 
 <?php
-
+//SE LLAMA AL CONTROLADOR PARA VALIDAR LOS DATOS DEL FORMULARIO DE LOGIN
 $ingreso = new MvcController();
 $ingreso -> loginController();
 if(isset($_GET["action"])){

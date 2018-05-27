@@ -5,7 +5,9 @@ class Pages{
 	public static function linkPagesM($link){
 
 
-		if($link == "ingresar" || $link == "maestros" || $link == "alumnos" || $link == "salir"){
+		if($link == "ingresar" || $link == "maestros" || $link == "alumnos" || $link == "salir" || $link == "tutorias"
+            || $link == "registroMaestros" || $link == "editarMaestros" || $link == "registroAlumnos" || $link == "editarAlumnos"
+            || $link == "registroTutoria"){
 
 			$module =  "views/modules/".$link.".php";
 		
@@ -13,13 +15,13 @@ class Pages{
 
 		else if($link == "index"){
 
-			$module =  "views/modules/registro.php";
+			$module =  "views/modules/registroMaestros.php";
 		
 		}
 
 		else if($link == "ok"){
 
-			$module =  "views/modules/registro.php";
+			$module =  "views/modules/registroMaestros.php";
 		
 		}
 
@@ -37,7 +39,7 @@ class Pages{
 
 		else{
 
-			$module =  "views/modules/registro.php";
+			$module =  "views/modules/registroMaestros.php";
 
 		}
 		return $module;

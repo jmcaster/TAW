@@ -1,5 +1,5 @@
 <?php
-
+    //VISTA DE MAESTROS
 	session_start();
 	if(!$_SESSION["validar"]){
 		header("location:index.php?action=ingresar");
@@ -7,7 +7,12 @@
 	}
 
 ?>
+
 <h1>MAESTROS</h1>
+<div class="row right">
+    <a href="index.php?action=registroMaestros" class="waves-effect waves-light btn pulse"><i class="material-icons right">add</i>Agregar</a>
+</div>
+
 
 	<table border="1">
 		
@@ -24,6 +29,7 @@
 		</thead>
 		<tbody>
 			<?php
+            //SE LLAMA AL CONTROLADOR PARA LA CONSULTA DE MAESTROS
 			$vistaUsuario = new MvcController();
 			$vistaUsuario -> vistaUsuariosController();
 			//$vistaUsuario -> borrarUsuarioController();
